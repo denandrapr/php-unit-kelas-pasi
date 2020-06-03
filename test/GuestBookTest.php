@@ -7,9 +7,9 @@ class GuestBookTest extends TestCase
 {
     public function testGuestMustHaveName()
     {
-        $guest = new Guest('Wahyudi');
+        $guest = new Guest('Bob');
         $result = $guest->getName();
 
-        $this->assertEquals('Wahyudi', $result);
+        $this->assertEquals('Bob', $result);
     }
 }
