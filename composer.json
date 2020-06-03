@@ -1,0 +1,27 @@
+{
+  "name": "denan/php-unit",
+  "description": "",
+  "authors": [
+    {
+      "name": "Den",
+      "email": "denandra1628@gmail.com"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": {
+    "packagist.org": {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+        "App\\": "src/"
+    }
+  }
+}
