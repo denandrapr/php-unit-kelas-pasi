@@ -5,11 +5,6 @@ include(__DIR__.'/../src/Arithmetic.php');
 
 class ArithmeticTest extends TestCase {
 
-    private $equals;
-    private $minus;
-    private $multiplied;
-    private $devided;
-
     public function testing()
     {
         $testArithmetic = new Arithmetic();
